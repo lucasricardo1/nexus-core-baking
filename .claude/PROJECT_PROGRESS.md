@@ -4,13 +4,13 @@ Este documento serve como a memória persistente do projeto, registrando a evolu
 
 ## 📌 Estado Atual
 - **Etapa:** 1 - Fundamentos da API
-- **Status:** Iniciando
+- **Status:** Em andamento (Aguardando implementação do domínio de Contas)
 - **Domínio:** Core Banking (Gestão de Contas e Transferências)
 - **Stack:** Java 21, Spring Boot, Gradle (Kotlin DSL)
 
 ## 🎓 Mapa de Conhecimento
 ### Java Moderno
-- [ ] Records
+- [ ] Records (Introduzido o conceito para DTOs)
 - [ ] Sealed Classes
 - [ ] Virtual Threads
 - [ ] Pattern Matching
@@ -24,6 +24,9 @@ Este documento serve como a memória persistente do projeto, registrando a evolu
 - [ ] Design de DTOs vs Entities
 - [ ] Tratamento de Exceções Global
 - [ ] Testes Unitários e de Integração
+- [x] Conceito de Race Condition / Lost Update (Dominado)
 
 ## 🚀 Histórico de Evolução
 - **2026-10-12**: Definição do domínio e alinhamento de expectativas.
+- **2026-10-12**: Configuração do `.gitignore` e sincronização com GitHub.
+- **2026-10-12**: Estudo teórico sobre concorrência (Race Conditions) e definição da primeira tarefa prática (Domínio de Contas).
